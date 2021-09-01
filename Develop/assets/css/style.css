@@ -1,29 +1,30 @@
+/* Universal class, controls wdith/height, sets padding and margin to 0. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Controls the background color of the page since just about everything is wrapped in body. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Changes the thickness of padding, sets preferred fonts with backups, changes header background color and text color. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Changes h1 children of header to display inline with a font size of 48. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* changes the color of seo in Horiseon. */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Controls all children of ul, assigns padding, margin, float, font type and size. */
 .header ul {
     list-style-type: none;
     padding-top: 15px;
@@ -32,22 +33,22 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Specifically for li children of ul that are children of header. Displays them inligns with a 25px margin. */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-
+/* Universal class for a (hrefs in this case) changes text color. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* universal class for all paragraphs, changes font size. */
 p {
     font-size: 16px;
 }
-
+/* This is the image featured on the page. Determines its height, width, margins, declares the image, its size and location. */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,23 +57,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Displays the SEO image to the left. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Displays the online rep management to the right. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Is the parent of SEO, ORM and SMM, controls the width of their images, their display and margins. */
 .section_content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Controls the wrapping section around all benefit sections. Sets the font, background color, size, shape and position of the blue box. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,55 +84,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Controls lead generation section. Mainly controls spacing, font, background color and the image. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Similar to above, controls margins and text color  */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Similar to above, controls margins and text color. */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* controls benefit lead, header 3 */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* controls benefit brand, header 3 */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* controls benefit cost, header 3 */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Controls benefit-lead img */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Controls benefit-brand img */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Controls benefit-costimg */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Controls search engine optimization box. Creates the blue box, assigns font, font color and size/pos. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -140,7 +141,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Controls online rep management box. Creates the blue box, assigns font, font color and size/pos. */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -149,7 +150,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Controls social media optimization box. Creates the blue box, assigns font, font color and size/pos. */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -158,41 +159,42 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Controls the height of img children of search-engine-optimization */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Controls the height of img children of online-reputation-management */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Controls the height of img children of social-media-marketing */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Controls the margin and font-size of h2 children of search-engine-optimization */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Controls the margin and font-size of h2 children of online-reputation-management */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Controls the margin and font-size of h2 children of social-media-marketing */
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Controls padding, font and text alignment of the footer. */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Controls font size of h2 children of footer */
 .footer h2 {
     font-size: 20px;
 }
