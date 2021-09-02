@@ -10,5 +10,5 @@ I learned a good bit about css parent/child relationships and the evils of div. 
 The code is a good bit cleaner/more readable now while maintaining the same functionality.
 
 ## Usage 
-Click index.html.
+Click index.html or view directly here: https://daelso.github.io/hw-1/
 
